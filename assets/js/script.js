@@ -13,11 +13,11 @@
 // Add a click event listener to the button with the data-nav-toggler attribute
 document.querySelector("[data-nav-toggler]").addEventListener("click", function() {
   const menuIcon = document.getElementById("menuIcon");
-  // Remove the existing class
-  menuIcon.classList.remove("fa-bars");
-  // Add the new class
-  menuIcon.classList.add("fa-xmark");
+  // Toggle between classes
+  menuIcon.classList.toggle("fa-bars");
+  menuIcon.classList.toggle("fa-xmark");
 });
+
 
 
 
