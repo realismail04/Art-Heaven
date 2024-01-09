@@ -34,10 +34,6 @@ navToggler.addEventListener("click", toggleNavbar);
 
 
 
-
-
-
-
 // ?============= HEADER ===================== //
     // ?============= active header when window scrolled to 50px ===================== //
 
@@ -49,3 +45,10 @@ navToggler.addEventListener("click", toggleNavbar);
  }
  
  window.addEventListener("scroll", activeHeader);
+
+ document.addEventListener('DOMContentLoaded', function() {
+  const authorElement = document.getElementById('author');
+  const authorText = '&copy; 2023 Copyright All Right Reserved By <a href="https://www.linkedin.com/in/theismail04" style="display: inline;">Syed Ismail Shah</a>';
+  authorElement.innerHTML = authorText;
+});
+
