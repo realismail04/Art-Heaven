@@ -18,7 +18,7 @@
 # Features:
 Responsive Design: Utilizes CSS media queries for optimal viewing across various devices and screen sizes.
 
-#Navigation:
+# Navigation:
 
 Implemented a responsive navigation bar for easy site navigation.
 Utilized Font Awesome and Ion Icons for icons in the navigation menu.
