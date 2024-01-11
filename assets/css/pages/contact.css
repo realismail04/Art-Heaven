@@ -1,6 +1,5 @@
 /* ?============= CONTACT.CSS =============?*/
 
-/* ?==== copyright 2023 Muhammad Usama (Alpha97) =====?*/
 
 
 /* *TABLE OF CONTENT*/
@@ -102,6 +101,48 @@ textarea {
   word-break: break-all;
 }
 
+select#product {
+  width: 100%;
+}
+  select#product {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #000;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-size: 16px;
+      margin-bottom: 10px;
+  }
+
+  select#product option {
+      padding: 12px;
+      font-size: 16px;
+  }
+
+/* The sumbit  message box */
+.alert {
+  padding: 20px;
+  background-color: #B9E9B9;
+  color: rgb(0, 0, 0);
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  float: right;
+  font-size: 25px;
+  line-height: 20px;
+  cursor: pointer;
+  transition:  all 0.3s;
+}
+
+.closebtn:hover {
+  color: red;
+  font-size: 35px;
+}
 
 
 /* ?============= MEDIA QUERIES =============?*/

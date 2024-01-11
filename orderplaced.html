@@ -67,7 +67,7 @@
                     </li>
 
                     <li class="navbar-item">
-                        <a href="#" class="label-lg navbar-link has-after active">Contact</a>
+                        <a href="./contact.html" class="label-lg navbar-link has-after active">Contact</a>
                     </li>
 
                 </ul>
@@ -96,7 +96,7 @@
                     <!-- SCRIPT FOR SUBMISSION PAGE -->
                     <script type="text/javascript">
                         var submitted=false
-                        var submitDiv = document.querySelector('.submitdiv');
+                        
                     </script>
                     <iframe name="hiddenConfirm" id="hiddenConfirm" style="display: none;" onload="if(submitted){window.location='orderplaced.html'}"></iframe>
                     <form action="https://docs.google.com/forms/d/e/1FAIpQLScl15nZZlRNHCgCiIF3Qc4ktSv7YsOKz6cMsln3p_UO6lSWLg/formResponse" class="contact-form" method="post" target="hiddenConfirm" onsubmit="submitted=true">
@@ -106,7 +106,11 @@
                         <p class="contact-text body-md">
                             Our friendly team would love to hear from you.
                         </p>
-                        <div class="submitdiv" style="display:none; padding:20px; background:rgb(185, 233, 185)">Form Is Submitted</div>
+                        
+                        <div class="alert">
+                            <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span>
+                            You Order Is Placed ! Our Team Will Call You Shortly
+                          </div>
                     
                         <div class="wrapper">
                             <div>
