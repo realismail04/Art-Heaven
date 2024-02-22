@@ -1,0 +1,44 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,300,500);
+
+body { 
+  background-color: #593E31; 
+  color: #fff;
+  font-size: 100%;
+  line-height: 1.5;
+  font-family: "Roboto", sans-serif;
+}
+
+.button {
+  font-weight: 300;
+  color: #fff;
+  font-size: 1.2em;
+  text-decoration: none;
+  border: 1px solid #efefef;
+  padding: .5em;
+  border-radius: 3px;
+  float: left;
+  margin: 6em 0 0 -155px;
+  left: 50%;
+  position: relative;
+  transition: all .3s linear;
+}
+
+.button:hover {
+  background-color: #B2A6A0;
+  color: #000;
+}
+
+p {
+  font-size: 2em;
+  text-align: center;
+  font-weight: 100;
+}
+
+h1 {
+  text-align: center;
+  font-size: 15em;
+  font-weight: 100;
+  text-shadow: #EAD6B8 1px 1px, #EAD6B8 2px 2px, #EAD6B8 3px 3px, #C4A9B8 4px 4px, #C4A9B8 5px 5px, #C4A9B8 6px 6px, #C4A9B8 7px 7px, #C4AAB8 8px 8px, #C4AAB8 9px 9px, #C4AAB8 10px 10px, #C4AAB8 11px 11px, #C4ABB9 12px 12px, #C4ABB9 13px 13px, #C4ABB9 14px 14px, #C4ABB9 15px 15px, #C4ABB9 16px 16px, #C4ACB9 17px 17px, #C4ACB9 18px 18px, #C4ACB9 19px 19px, #C4ACB9 20px 20px, #C4ACBA 21px 21px, #C4ACBA 22px 22px, #C4ACBA 23px 23px, #C4ACBA 24px 24px, #C4ADBA 25px 25px, #C4ADBA 26px 26px, #C4ADBA 27px 27px, #C4ADBA 28px 28px, #C4ADBB 29px 29px, #C4ADBB 30px 30px, #C4ADBB 31px 31px, #C4ADBB 32px 32px, #C4AEBB 33px 33px, #C4AEBB 34px 34px, #C4AEBB 35px 35px, #C4AEBB 36px 36px, #C4AEBB 37px 37px, #C4AEBB 38px 38px, #C4AEBB 39px 39px, #C4AFBB 40px 40px, #C4AFBB 41px 41px, #C4AFBB 42px 42px, #C4AFBB 43px 43px, #C4AFBB 44px 44px, #C4AFBB 45px 45px, #C4AFBB 46px 46px, #C4AFBB 47px 47px, #C4AFBC 48px 48px, #C4AFBC 49px 49px, #C4AFBC 50px 50px, #C4AFBC 51px 51px, #C4AFBC 52px 52px, #C4AFBC 53px 53px, #C4AFBC 54px 54px, #C4AFBC 55px 55px, #C4AFBD 56px 56px, #C4AFBD 57px 57px, #C4AFBD 58px 58px, #C4AFBD 59px 59px, #C4AFBD 60px 60px, #C4AFBD 61px 61px, #C4AFBD 62px 62px, #C4AFBD 63px 63px, #C4AFBE 64px 64px, #C4AFBE 65px 65px, #C4AFBE 66px 66px, #C4AFBE 67px 67px, #C4AFBE 68px 68px, #C4AFBE 69px 69px, #C4AFBE 70px 70px, #C4AFBE 71px 71px, #C4AFBF 72px 72px, #C4AFBF 73px 73px, #C4AFBF 74px 74px, #C4AFBF 75px 75px, #C4AFBF 76px 76px, #C4AFBF 77px 77px, #C4AFBF 78px 78px, #C4AFC0 79px 79px, #C4AFC0 80px 80px, #C4AFC0 81px 81px, #C4AFC0 82px 82px, #C4AFC0 83px 83px, #C4AFC0 84px 84px, #C4AFC0 85px 85px, #C4AFC0 86px 86px, #C4AFC1 87px 87px, #C4AFC1 88px 88px, #C4AFC1 89px 89px, #C4AFC1 90px 90px, #C4AFC1 91px 91px, #C4AFC1 92px 92px, #C4AFC1 93px 93px, #C4AFC1 94px 94px, #C4AFC2 95px 95px, #C4AFC2 96px 96px, #C4AFC2 97px 97px, #C4AFC2 98px 98px, #C4AFC2 99px 99px, #C4AFC2 100px 100px, #C4AFC2 101px 101px, #C4AFC2 102px 102px, #C4AFC3 103px 103px, #C4AFC3 104px 104px, #C4AFC3 105px 105px, #C4AFC3 106px 106px, #C4AFC3 107px 107px, #C4AFC3 108px 108px, #C4AFC3 109px 109px, #C4AFC3 110px 110px, #C4AFC4 111px 111px, #C4AFC4 112px 112px, #C4AFC4 113px 113px, #C4AFC4 114px 114px, #C4AFC4 115px 115px, #C4AFC4 116px 116px, #C4AFC4 117px 117px, #C4AFC4 118px ;
+
+
+}
